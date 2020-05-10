@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.nav{
+    background-color:#008000;
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+}
+.home{
+    background-color:greenyellow;
+    text-decoration-color: white;
+    box-shadow: 1px 1px 1px black;
+    padding:10px;
+    margin: 10px;
+}
+.aubout,.contact{
+    color: white;
+    background-color: blue;
+    box-shadow: 1px 1px 1px black;
+    padding:10px;
+    margin: 10px;
+}
+/* #image{
+    max-height: 400px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin:0;
+    border:0;
+    padding:0;
+} */
+.nav-home-logo{
+    background-image: linear-gradient(rgba(46, 45, 45, 0.7), rgba(29, 29, 29, 0.88)), url(../img/design2_image1.jpg);
+     background-size: cover; 
+
+    height: 400px;
+}
+.nav-home-logo1{
+    background-image: linear-gradient(rgba(46, 45, 45, 0.7), rgba(29, 29, 29, 0.88)), url(../img/design1_image1.jpg);
+     background-size: cover; 
+
+    height: 400px;
+}
+.nav-home-logo2{
+    background-image: linear-gradient(rgba(46, 45, 45, 0.7), rgba(29, 29, 29, 0.88)), url(../img/soccer_image3.jpg);
+     background-size: cover; 
+
+    height: 400px;
+}
+
+.link{
+    float: right;
+    position: relative;
+    z-index: 100;
+}
+.center{
+    float: left;
+    margin-left: 15%;
+}
+#logo{
+    float: left;
+    width: 10%;
+    margin: 10px;
+}
+.imagen{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+p{
+    margin-left: 5%;
+}
+
